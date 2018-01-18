@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>finding the day</title>
+	<style type="text/css">
+		#big
+		{
+			padding:20px,20px,20px,20px;
+			background-color: black;
+			text-align: center;
+			color: white;
+			margin-left: 400px;
+			margin-right: 400px;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<script type="text/javascript">
+		alert("THIS PROGRAME IS USED TO FIND OUT THE DAY OF YOUR BIRTH")
+		alert("Want To Find Your Day Of Birth");
+		alert("Enter your Month in alphabets date and year like ( january 2 1999)")
+		var x=prompt("enter your month day,year of birth and time");
+		var y=new Date(x);
+		var z=y.toString();
+		var t=z.slice(0,3);
+		//document.write(t);
+		if(t=="Mon")
+		{
+			document.write("YOU ARE BORN ON : MONDAY")
+		}
+		else if(t=="Tue")
+		{
+			document.write("YOU ARE BORN ON : TUESDAY")
+		}
+		else if(t=="Wed")
+		{
+			document.write("YOU ARE BORN ON : WEDNESDAY")
+		}
+		else if(t=="Thu")
+		{
+			document.write("YOU ARE BORN ON : THRUSDAY")
+		}
+		else if(t=="Fri")
+		{
+			document.write("YOU ARE BORN ON : FRIDAY")
+		}
+		else if(t=="Sat")
+		{
+			document.write("YOU ARE BORN ON : SATURDAY")
+		}
+		else if(t=="Sun")
+		{
+			document.write("YOU ARE BORN ON : SUNDAY")
+		}
+</script>
+</body>
+</html>
